@@ -1,0 +1,24 @@
+HTTP1.1 Vs HTTP2 
+INTRODUCTION:-
+The HTTP (Hypertext Transfer Protocol) is an application protocol that has been the standard for communication on the World Wide Web since its invention in 1989. There are few versions to the protocol before the release of HTTP1.1 in 1997 until recently, but in 2015, a version called HTTP2 came into use, which offered several methods to decrease latency, especially when dealing with mobile platforms and server-intensive graphics and videos.
+HTTP was developed by Timothy Berners-Lee in 1989 as a communication standard for the World Wide Web, HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server. In this process, a client sends a text-based request to a server by calling a method like GET or POST. In response, the server sends a resource like an HTML page back to the client.
+
+Drawbacks of HTTP1.1:-
+•	Uses plain text format for requests and responses.
+•	Limits concurrent requests, leading to slower page load times.
+•	Requires resource bundling and domain sharding to reduce latency.
+•	Supports server push through workarounds like inlining resources.
+Updates from HTTP 1.1 to HTTP 2:-
+•	Employs a binary framing layer for encapsulating messages, improving efficiency.
+•	Utilizes multiplexing to send multiple streams over a single connection, enhancing parallelism.
+•	Allows prioritization and control over content loading, improving perceived page speed.
+•	Supports header compression, reducing overhead.
+•	Enables true server push for proactive resource delivery.
+HTTP 1.1 Vs HTTP2:-
+•	Multiplexing:- HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+
+•	Header Compression: HTTP2 uses header compression to reduce overhead, improving efficiency and reducing latency compared to the plaintext headers of HTTP1.1.
+ 
+•	Server Push: HTTP2 supports server push, enabling servers to proactively send resources to the client before they are requested, further optimizing page load times.
+ 
+•	Binary Protocol: HTTP2 uses a binary protocol instead of the textual protocol of HTTP1.1, which is more efficient for computers to parse and results in fewer errors.

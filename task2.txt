@@ -1,0 +1,32 @@
+Objects and its internal representation in Javascript
+In JavaScript, an object is a standalone entity, with properties and type. for example, A bottle is an object, with properties. A bottle has a colour, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+Objects in JavaScript:
+1.	By object literal
+2.	By creating instance of Object directly 
+By object literal:
+The syntax of creating object using object literal is given below:
+ 
+Property and value is separated by colon(:).
+Example:- var class{
+		Student:”Raj”,
+		Subject:”maths”,
+		Marks:48,
+		}
+By creating instance of Object directly (using new keyword):
+The syntax of creating object directly is given below:
+ 
+Here, new keyword is used to create object.
+Example:
+  		Var student=new object();
+		 	Student.id=908021;
+			Student.name=”Raj”;   
+			Student.marks=50;
+Accessing JavaScript Objects:
+The syntax for accessing the property of an object is:
+objectName.property
+or
+objectName[“property”]
+Accessing ‘fname’ from example 1 using dot operator,
+Class.student
+Accessing ‘name’ form example 2 using [],
+Student[name]
